@@ -9,15 +9,15 @@ without updating your own "online" status.
 - **Anti-Spam Protection**: Built-in cooldown mechanism (`COOLDOWN_MINUTES`) to prevent frequent requests and handle
   Telegram `FloodWaitError` exceptions safely.
 - **Structured Logging**: Automatic daily log rotation at midnight (`00:00`) with logs saved into a dedicated `logs/`
-  directory using Loguru[cite: 3].
-- **Time Calculation**: Automatically computes how long ago the contact was online in hours and minutes[cite: 6].
+  directory using Loguru.
+- **Time Calculation**: Automatically computes how long ago the contact was online in hours and minutes.
 
 ## File Structure
 
 - `main.py`: Core script handling client initialization, anti-spam validation, and status checking.
-- `logger.py`: Loguru setup providing console output and daily log file rotation[cite: 3].
-- `utils.py`: Helper functions for time-ago calculations and user full-name formatting[cite: 6].
-- `tluser_2.py`: Dataclass definitions for Telethon user objects and online status structures[cite: 5].
+- `logger.py`: Loguru setup providing console output and daily log file rotation.
+- `utils.py`: Helper functions for time-ago calculations and user full-name formatting.
+- `tluser_2.py`: Dataclass definitions for Telethon user objects and online status structures.
 
 ## Requirements
 
