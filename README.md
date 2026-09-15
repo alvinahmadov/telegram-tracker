@@ -17,7 +17,7 @@ without updating your own "online" status.
 - `main.py`: Core script handling client initialization, anti-spam validation, and status checking.
 - `logger.py`: Loguru setup providing console output and daily log file rotation.
 - `utils.py`: Helper functions for time-ago calculations and user full-name formatting.
-- `tluser_2.py`: Dataclass definitions for Telethon user objects and online status structures.
+- `tluser.py`: Dataclass definitions for Telethon user objects and online status structures.
 
 ## Requirements
 
